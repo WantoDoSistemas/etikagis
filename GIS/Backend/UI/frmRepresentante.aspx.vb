@@ -275,7 +275,7 @@
         Dim objRepresentante As New MODEL.Representante
         Dim objRepresentanteBLL As New BLL.RepresentanteBLL
 
-        If txtNome.Text = "" Or cmbEmpresa.SelectedItem.Text = "" Or cmbEmpresa.SelectedItem.Text = "<Selecione>" Or cmbPerfil.SelectedItem.Text = "" Or cmbPerfil.SelectedItem.Text = "<Selecione>" Or cmbStatus.SelectedItem.Text = "" Or cmbStatus.SelectedItem.Text = "<Selecione>" Then
+        If txtNome.Text = "" Or cmbEmpresa.SelectedItem.Text = "" Or cmbEmpresa.SelectedItem.Text = "<Selecione>" Or cmbPerfil.SelectedItem.Text = "" Or cmbPerfil.SelectedItem.Text = "<Selecione>" Or cmbStatus.SelectedItem.Text = "" Or cmbStatus.SelectedItem.Text = "<Selecione>" Or txtUsuario.Text = "" Or txtSenha.Text = "" Then
             lblMsg.Text = "Os campos com * são de preenchimento obrigatório!"
             lblMsg.ForeColor = Drawing.Color.Red
             pnlMsg.Visible = True

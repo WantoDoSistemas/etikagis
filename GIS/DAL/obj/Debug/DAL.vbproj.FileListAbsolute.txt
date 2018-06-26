@@ -1,0 +1,15 @@
+C:\WanToDo\etikagis\GIS\DAL\bin\Debug\DAL.dll
+C:\WanToDo\etikagis\GIS\DAL\bin\Debug\DAL.pdb
+C:\WanToDo\etikagis\GIS\DAL\bin\Debug\DAL.xml
+C:\WanToDo\etikagis\GIS\DAL\bin\Debug\COMUM.dll
+C:\WanToDo\etikagis\GIS\DAL\bin\Debug\MODEL.dll
+C:\WanToDo\etikagis\GIS\DAL\bin\Debug\COMUM.pdb
+C:\WanToDo\etikagis\GIS\DAL\bin\Debug\COMUM.xml
+C:\WanToDo\etikagis\GIS\DAL\bin\Debug\MODEL.pdb
+C:\WanToDo\etikagis\GIS\DAL\bin\Debug\MODEL.xml
+C:\WanToDo\etikagis\GIS\DAL\obj\Debug\DAL.vbprojResolveAssemblyReference.cache
+C:\WanToDo\etikagis\GIS\DAL\obj\Debug\DAL.Resources.resources
+C:\WanToDo\etikagis\GIS\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache
+C:\WanToDo\etikagis\GIS\DAL\obj\Debug\DAL.dll
+C:\WanToDo\etikagis\GIS\DAL\obj\Debug\DAL.xml
+C:\WanToDo\etikagis\GIS\DAL\obj\Debug\DAL.pdb

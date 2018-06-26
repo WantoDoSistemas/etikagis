@@ -1,0 +1,8 @@
+C:\WanToDo\etikagis\GIS\MODEL\bin\Debug\MODEL.dll
+C:\WanToDo\etikagis\GIS\MODEL\bin\Debug\MODEL.pdb
+C:\WanToDo\etikagis\GIS\MODEL\bin\Debug\MODEL.xml
+C:\WanToDo\etikagis\GIS\MODEL\obj\Debug\MODEL.Resources.resources
+C:\WanToDo\etikagis\GIS\MODEL\obj\Debug\MODEL.vbproj.GenerateResource.Cache
+C:\WanToDo\etikagis\GIS\MODEL\obj\Debug\MODEL.dll
+C:\WanToDo\etikagis\GIS\MODEL\obj\Debug\MODEL.xml
+C:\WanToDo\etikagis\GIS\MODEL\obj\Debug\MODEL.pdb

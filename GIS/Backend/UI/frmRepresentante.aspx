@@ -123,13 +123,13 @@
 									    </tr>	
 
                                         <tr>
-										    <td>Usuário</td> <td>
+										    <td>Usuário*</td> <td>
                                             <asp:TextBox ID="txtUsuario" runat="server" MaxLength="20" Width="179px"></asp:TextBox>
                                             </td>
 									    </tr>
 
                                         <tr>
-										    <td>Senha</td> <td>
+										    <td>Senha*</td> <td>
                                             <asp:TextBox ID="txtSenha" runat="server" MaxLength="20" Width="179px"></asp:TextBox>
                                             </td>
 									    </tr>

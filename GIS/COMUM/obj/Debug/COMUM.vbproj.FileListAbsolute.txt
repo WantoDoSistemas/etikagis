@@ -1,0 +1,8 @@
+C:\WanToDo\etikagis\GIS\COMUM\bin\Debug\COMUM.dll
+C:\WanToDo\etikagis\GIS\COMUM\bin\Debug\COMUM.pdb
+C:\WanToDo\etikagis\GIS\COMUM\bin\Debug\COMUM.xml
+C:\WanToDo\etikagis\GIS\COMUM\obj\Debug\COMUM.Resources.resources
+C:\WanToDo\etikagis\GIS\COMUM\obj\Debug\COMUM.vbproj.GenerateResource.Cache
+C:\WanToDo\etikagis\GIS\COMUM\obj\Debug\COMUM.dll
+C:\WanToDo\etikagis\GIS\COMUM\obj\Debug\COMUM.xml
+C:\WanToDo\etikagis\GIS\COMUM\obj\Debug\COMUM.pdb
