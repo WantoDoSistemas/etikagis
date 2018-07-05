@@ -1,0 +1,60 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site.master.vb" Inherits="Frontend.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="Styles/Site.css" rel="stylesheet" type="text/css" />
+    
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="Form1" runat="server">
+    <div class="page">
+        <div class="header">
+            <div id="divLogo" class="loginDisplay" 
+                style="background-image: url('../Imagens/topo_logo2.jpg'); background-repeat:no-repeat;">               
+
+                <asp:label ID="lblTitulo" runat="server" 
+                    
+                    style="float:left; margin-left:22%; margin-top:3%; text-align:right; font-family:Tahoma; font-weight:bold; font-size:x-large;" 
+                    Width="553px" Height="29px"></asp:label>
+
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [<a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a>]
+                        
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Bem vindo <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [<asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="LogOut" LogoutPageUrl="~/UI/frmLogin.aspx" />]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+
+                
+            </div>
+
+            
+
+            
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+
+            
+        </div>
+        <div class="clear">
+        </div>
+
+        <div class="footer"><font style="font-size:9;font-family:verdana;font:900;">						
+						Desenvolvido por <a href="http://wantodo.com.br">WanToDo</a> Sistemas. 2014         
+        </div>
+
+    </div>
+    
+    </form>
+</body>
+</html>
+
+ 

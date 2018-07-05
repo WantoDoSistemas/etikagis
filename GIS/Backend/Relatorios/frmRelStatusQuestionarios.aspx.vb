@@ -271,4 +271,7 @@ Public Class frmRelStatusQuestionarios
     Public Overrides Sub VerifyRenderingInServerForm(ByVal control As Control)
     End Sub
 
+    Protected Sub cmbCompetencia_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cmbCompetencia.SelectedIndexChanged
+        carregagridQuestao()
+    End Sub
 End Class

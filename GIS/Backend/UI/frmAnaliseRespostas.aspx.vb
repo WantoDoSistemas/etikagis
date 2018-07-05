@@ -273,7 +273,7 @@ Public Class frmAnaliseRespostas
                 objQuestionario.representante.no_representante = dt.Rows(0)("Nome").ToString
                 objQuestionario.representante.dc_area = dt.Rows(0)("Area").ToString
 
-                objQuestionarioBLL.EnviaEmailAnaliseQuestao(objQuestionario)
+                'objQuestionarioBLL.EnviaEmailAnaliseQuestao(objQuestionario)
             End If
 
 
@@ -284,7 +284,7 @@ Public Class frmAnaliseRespostas
                 objQuestionario.representante.no_representante = dt.Rows(0)("no_representante").ToString
                 objQuestionario.representante.dc_area = cmbArea.SelectedItem.ToString
 
-                objQuestionarioBLL.EnviaEmailAnaliseQuestao(objQuestionario)
+                'objQuestionarioBLL.EnviaEmailAnaliseQuestao(objQuestionario)
             End If
             
         End If

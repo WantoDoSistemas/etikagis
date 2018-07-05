@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\WanToDo\etikagis\Publish\Frontend\" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Imagens/topo_logo2.jpg" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="Imagens/login_bg2.png" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="bin/Frontend.xml" publishTime="07/04/2018 22:50:04" />
+    <file relUrl="Imagens/Flag-Black.png" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="Imagens/edit.png" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="bin/MODEL.dll" publishTime="03/13/2018 22:52:14" />
+    <file relUrl="Imagens/accept.png" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="Site.Master" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="Styles/Site.css" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="bin/MODEL.xml" publishTime="03/13/2018 22:52:14" />
+    <file relUrl="bin/BLL.xml" publishTime="07/04/2018 22:05:19" />
+    <file relUrl="About.aspx" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="bin/DAL.dll" publishTime="07/04/2018 22:05:18" />
+    <file relUrl="Imagens/botao-responder.png" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="Imagens/no.ico" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="bin/DAL.xml" publishTime="07/04/2018 22:05:18" />
+    <file relUrl="bin/Frontend.dll" publishTime="07/04/2018 22:50:04" />
+    <file relUrl="Imagens/Flag-Green.png" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="Account/Register.aspx" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="Account/Login.aspx" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="Account/Web.config" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="Imagens/Flag-Grey.png" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="Imagens/fundo_topo_login.jpg" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="Imagens/save.ico" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="Imagens/Flag-Red.png" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="bin/Frontend.pdb" publishTime="07/04/2018 22:50:04" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="UI/frmResposta.aspx" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="Global.asax" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="Account/ChangePasswordSuccess.aspx" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="Imagens/topoLogo.png" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="bin/COMUM.pdb" publishTime="06/25/2018 20:58:43" />
+    <file relUrl="bin/DAL.pdb" publishTime="07/04/2018 22:05:18" />
+    <file relUrl="UI/Default.aspx" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="bin/BLL.dll" publishTime="07/04/2018 22:05:19" />
+    <file relUrl="UI/frmLogin.aspx" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="Imagens/Flag-Yellow.png" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="bin/COMUM.dll" publishTime="06/25/2018 20:58:43" />
+    <file relUrl="Account/ChangePassword.aspx" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="Imagens/login_bg.png" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="bin/BLL.pdb" publishTime="07/04/2018 22:05:19" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="bin/MODEL.pdb" publishTime="03/13/2018 22:52:14" />
+    <file relUrl="Web.config" publishTime="06/27/2018 22:03:57" />
+    <file relUrl="Imagens/Flag-Checkered.png" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="Styles/css_template_form.css" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="Imagens/delete.png" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="Imagens/find.ico" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="Imagens/Flag-Blue.png" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="Imagens/add_disabled.png" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="bin/COMUM.xml" publishTime="06/25/2018 20:58:43" />
+    <file relUrl="Imagens/save_disabled.png" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="Imagens/add.ico" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="Imagens/find_disabled.png" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="Imagens/no_disabled.png" publishTime="03/13/2018 22:39:29" />
+    <file relUrl="Imagens/accept_disabled.png" publishTime="03/13/2018 22:39:29" />
+  </publishProfile>
+</publishData>

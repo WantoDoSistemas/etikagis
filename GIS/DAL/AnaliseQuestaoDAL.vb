@@ -11,6 +11,8 @@ Public Class AnaliseQuestaoDAL
             param = {dal.CriarParametro("@cd_representante", SqlDbType.VarChar, cd_representante), _
                      dal.CriarParametro("@competencia", SqlDbType.VarChar, competencia)}
 
+
+
             Return dal.GetDataSet("st_sgs_analise_questao_s", CommandType.StoredProcedure, param)
         Catch ex As Exception
             Throw ex

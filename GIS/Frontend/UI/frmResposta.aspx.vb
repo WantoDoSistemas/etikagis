@@ -470,8 +470,9 @@
                     pnlMsg.Visible = True
                     btnCancelar_Click(sender, e)
                 End If
-            ElseIf Request.QueryString("codStatus").ToString = 5 Then
+            ElseIf Request.QueryString("codStatus").ToString = 5 Or Request.QueryString("codStatus").ToString = 7 Then
                 If objRespostaBLL.AlteraResposta(objResposta) Then
+                    objQuestionarioBLL.AlteraQuestionario(Request.QueryString("codQuestionario").ToString, 5, competencia)
                     lblMsg.Text = "Resposta alterada com sucesso!"
                     lblMsg.ForeColor = Drawing.Color.LightGreen
                     pnlMsg.Visible = True
@@ -618,22 +619,22 @@
         objQuestionario.representante.no_representante = Session("nome")
         objQuestionario.representante.dc_area = Session("area")
 
-        If objQuestionarioBLL.EnviaEmailQuestionarioRespondido(objQuestionario) Then
+        'If objQuestionarioBLL.EnviaEmailQuestionarioRespondido(objQuestionario) Then
 
-            For i = 0 To gridQuestao.Rows.Count - 1
-                If gridQuestao.Rows(i).Cells(7).Text = 5 Then
-                    objQuestionarioBLL.AlteraQuestionario(gridQuestao.Rows(i).Cells(2).Text, 6, competencia)
-                End If
-            Next
+        For i = 0 To gridQuestao.Rows.Count - 1
+            If gridQuestao.Rows(i).Cells(7).Text = 5 Then
+                objQuestionarioBLL.AlteraQuestionario(gridQuestao.Rows(i).Cells(2).Text, 6, competencia)
+            End If
+        Next
 
-            lblMsg.Text = "Questionário finalizado com sucesso!"
-            lblMsg.ForeColor = Drawing.Color.LightGreen
-            pnlMsg.Visible = True
-        Else
-            lblMsg.Text = "Não foi possível finalizar o questionário."
-            lblMsg.ForeColor = Drawing.Color.Red
-            pnlMsg.Visible = True
-        End If
+        lblMsg.Text = "Questionário finalizado com sucesso!"
+        lblMsg.ForeColor = Drawing.Color.LightGreen
+        pnlMsg.Visible = True
+        'Else
+        'lblMsg.Text = "Não foi possível finalizar o questionário."
+        'lblMsg.ForeColor = Drawing.Color.Red
+        'pnlMsg.Visible = True
+        'End If
 
         limpaCampos()
     End Sub

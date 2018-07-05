@@ -395,22 +395,22 @@
         objQuestionario.representante.no_representante = dt.Rows(0)("no_representante").ToString
         objQuestionario.representante.dc_area = cmbArea.SelectedItem.ToString
 
-        If objQuestionarioBLL.EnviaEmailQuestionadioLiberado(objQuestionario) Then
+        'If objQuestionarioBLL.EnviaEmailQuestionadioLiberado(objQuestionario) Then
 
-            objQuestionarioBLL.AlteraQuestionario(0, 4, cmbCompetencia.SelectedValue, cmbArea.SelectedValue)
+        objQuestionarioBLL.AlteraQuestionario(0, 4, cmbCompetencia.SelectedValue, cmbArea.SelectedValue)
 
-            lblMsg.Text = "Questionário finalizado com sucesso!"
-            lblMsg.ForeColor = Drawing.Color.LightGreen
-            pnlMsg.Visible = True
+        lblMsg.Text = "Questionário finalizado com sucesso!"
+        lblMsg.ForeColor = Drawing.Color.LightGreen
+        pnlMsg.Visible = True
 
-            pnlFinalizar.Visible = False
-        Else
-            lblMsg.Text = "Não foi possível finalizar o questionário. Favor verificar o email de cadastro do Ponto Focal."
-            lblMsg.ForeColor = Drawing.Color.Red
-            pnlMsg.Visible = True
+        pnlFinalizar.Visible = False
+        'Else
+        '    lblMsg.Text = "Não foi possível finalizar o questionário. Favor verificar o email de cadastro do Ponto Focal."
+        '    lblMsg.ForeColor = Drawing.Color.Red
+        '    pnlMsg.Visible = True
 
-            pnlFinalizar.Visible = False
-        End If
+        '    pnlFinalizar.Visible = False
+        'End If
 
         limpaCampos()
         desabilitaCampos()
